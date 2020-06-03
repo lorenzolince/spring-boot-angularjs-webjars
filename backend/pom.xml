@@ -36,9 +36,13 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>angularjs</artifactId>
-            <version>1.6.10</version>
+            <version>1.7.9</version>
         </dependency>
-        
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>font-awesome</artifactId>
+            <version>5.13.0</version>
+        </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>restangular</artifactId>
@@ -79,7 +83,7 @@
   
 
     <build>
-     <finalName>backend</finalName>
+        <finalName>backend</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

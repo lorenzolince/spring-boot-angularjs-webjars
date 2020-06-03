@@ -28,12 +28,6 @@ public class BackendController {
         return "home";
     }
 
-    @GetMapping("/error") // frontend1
-    public String error(Model model) {
-        System.out.println("######## error ################");
-        return "error";
-    }
-
     @GetMapping("/module1") // frontend1
     public String module1(Model model) {
         model.addAttribute("name", "welcome front end 1");
